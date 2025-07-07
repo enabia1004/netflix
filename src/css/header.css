@@ -1,0 +1,74 @@
+.header{
+    width: 100%;
+    height: 70px;
+    background: #0A0A0A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.header h1{
+    cursor: pointer;
+}
+.header h1 img{
+    width: 100px;
+}
+.header .left{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.header .left ul.gnb{
+    display: flex;
+    gap: 20px;
+}
+.header .left ul.gnb li{
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+.header .left ul.gnb li:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.header .icon_wrap{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 25px;
+}
+.header .icon_wrap{
+    color: #fff;
+}
+.header .icon_wrap .kids .bell{
+    position: relative;
+} 
+.header .icon_wrap .kids .bell::after{
+    position: absolute;
+    content: '4';
+    width: 16px;
+    height: 16px;
+    background: red;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 99px;
+    left: 13px;
+    top: -30px;
+}
+.header .icon_wrap .profll img{
+    width: 32px;
+    cursor: pointer;
+}
+svg{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+

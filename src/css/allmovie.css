@@ -1,0 +1,63 @@
+.allmovie{
+    width: 100%;
+    padding: 60px;
+    background: #141414;
+}
+.allmovie h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.allmovie .poster{
+    display: flex;
+    gap: 10px;
+}
+.allmovie .imgbox{
+    width: 300px;
+} 
+.allmovie .imgbox img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-button-next::after{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
